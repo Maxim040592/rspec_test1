@@ -13,7 +13,11 @@ class Superman
     @hp += 10
   end
   
-  def powe_down
+  def power_down
     @hp -= 10
+  end
+
+  def infa_all
+    "#{@name} has a hp for #{@hp}"    
   end
 end
