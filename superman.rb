@@ -9,7 +9,7 @@ class Superman
     @name
   end
 
-  def powe_up
+  def power_up
     @hp += 10
   end
   
